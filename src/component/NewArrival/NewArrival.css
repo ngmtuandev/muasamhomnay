@@ -1,0 +1,15 @@
+.heading img {
+    width: 40px;
+    height: 40px;
+}
+
+.box h4 {
+    font-weight: 600;
+}
+
+.box span {
+    color: var(--clr-c);
+    font-size: 15px;
+    font-weight: 500;
+}
+

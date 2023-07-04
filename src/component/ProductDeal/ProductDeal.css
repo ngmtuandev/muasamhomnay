@@ -1,0 +1,145 @@
+
+:root {
+    --clr-a:#0f3460;
+    --clr-b: #ffff;
+    --clr-c: #f6f9fc;
+    --clr-d: #000000;
+    --clr-g: #cbdbf0;
+    --clr-y: #febf1f;
+}
+
+.flash .heading {
+    margin-top: 40px;
+}
+    
+/* Product */
+.product {
+    background-color: var(--clr-c);
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgba(3 0 71 / 9%) 0 1px 3px;
+    margin: 25px 10px;
+    cursor: pointer;
+}
+
+.discount {
+    width: 40px;
+    height: 0px;
+    background-color: var(--clr-a);
+    padding: 5px 10px;
+    color: var(--clr-c);
+    border-radius: 50px;
+}
+
+.product h3 {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.product .rate i {
+    font-size: 15px;
+    color: var(--clr-y);
+    margin: 10px 3px 5px 2px;
+}
+
+.product .price {
+    display: flex;
+    justify-content: space-between;
+    color: var(--clr-a);
+}
+
+.product button {
+    background-color: transparent;
+    color: var(--clr-a);
+    cursor: pointer;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.product button:hover {
+    background-color: var(--clr-g);
+}
+
+.product-like {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.product-like label {
+    background-color: var(--clr-a);
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: var(--clr-c);
+}
+
+.product-like i {
+    font-size: 25px;
+    margin: -20px 3px;
+    color: var(--clr-a);
+    margin-top: 3px;
+    transition: 0.5s;
+}
+
+.product-like i:hover {
+    color: var(--clr-y)
+}
+
+.product:hover .product-like {
+    opacity: 1;
+}
+
+/* control-btn */
+
+.control-btn .prev {
+    position: absolute;
+    top: 40%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: var(--clr-a);
+    border-radius: 5px;
+    transition: 0.5s;
+    z-index: 10;
+    left: -16px;
+    color: var(--clr-c);
+    font-size: 25px;
+}
+
+.control-btn .prev:hover {
+    background-color: transparent;
+    color: var(--clr-a);
+    cursor: pointer;
+}
+
+.control-btn .next {
+    position: absolute;
+    top: 40%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: var(--clr-a);
+    border-radius: 5px;
+    transition: 0.5s;
+    z-index: 10;
+    right: -19px;
+    color: var(--clr-c);
+    font-size: 25px;
+}
+
+.control-btn .next:hover {
+    background-color: transparent;
+    color: var(--clr-a);
+    cursor: pointer;
+}

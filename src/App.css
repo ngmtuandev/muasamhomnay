@@ -1,0 +1,171 @@
+:root {
+    --clr-a:#0f3460;
+    --clr-b: #ffff;
+    --clr-c: #f6f9fc;
+    --clr-d: #000000;
+    --clr-g: #cbdbf0;
+    --clr-r: #5c6167;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-b);
+}
+
+.background {
+    background-color: var(--clr-c);
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.d_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f_flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-d);
+}
+
+li {
+    list-style: none;
+}
+
+.uppercase { 
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.RText {
+    text-align: right;
+}
+
+input, button {
+    border: none;
+    outline: none;
+    background-color: none;
+}
+
+.row {
+    width: 50%;
+}
+
+.icon_circle {
+    width: 50px;
+    height: 50px;
+    background-color: var(--clr-c);
+    border-radius: 50%;
+    line-height: 50px;
+    align-items: center;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* ========== category ========== */
+
+.contentWidth {
+    width: 77%;
+}
+
+.category {
+    width: 23%;
+    box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
+    height: 510px;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.category img {
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    object-fit: contain;
+}
+
+.category  span {
+    margin: 10px 20px;
+    text-transform: capitalize;
+}
+
+.category .box {
+    transition: 0.5s;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.category .box:hover {
+    background-color: var(--clr-g);
+    cursor: pointer;
+}
+
+.top {
+    margin-top: 30px;
+}
+
+.mtop {
+    margin-top: 40px;
+}
+
+.heading i {
+    color: var(--clr-a);
+    margin: 10px;
+}
+
+/* Top - Heading */
+
+.heading .heading-left i {
+    font-size: 30px;
+}
+
+.heading .heading-left h2 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.heading .heading-right {
+    text-align: right;
+    color: var(--clr-r);
+}
+
+/* ============== Heading - NewArrival */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    justify-content: space-between;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+    justify-content: space-between;
+}

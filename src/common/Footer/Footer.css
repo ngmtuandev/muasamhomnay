@@ -1,0 +1,51 @@
+:root {
+    --clr-a:#0f3460;
+    --clr-b: #ffff;
+    --clr-c: #f6f9fc;
+    --clr-d: #000000;
+    --clr-g: #cbdbf0;
+    --clr-r: #5c6167;
+}
+
+footer {
+    background-color: var(--clr-a);
+    padding: 80px 0;
+    margin-top: 30px;
+    color: var(--clr-c);
+}
+
+footer h1 {
+    margin-bottom: 30px;
+    color: var(--clr-c);
+    font-weight: 500;
+}
+
+footer .img {
+    background-color: var(--clr-a);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+footer .img i {
+    font-size: 20px;
+    margin: 5px;
+}
+
+footer .img span {
+    margin-top: 5px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
